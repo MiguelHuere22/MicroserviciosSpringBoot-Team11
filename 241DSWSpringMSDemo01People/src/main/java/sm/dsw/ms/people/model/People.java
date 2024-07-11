@@ -18,6 +18,7 @@ public class People {
     private String telefono;
     private Date fechaNacimiento;
 
+    @Column(name = "id_ubigeo")
     private Long idUbigeo; // Relación con Ubigeo por ID
 
     // Getters y Setters

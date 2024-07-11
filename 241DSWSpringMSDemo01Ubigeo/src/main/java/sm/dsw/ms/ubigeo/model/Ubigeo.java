@@ -1,7 +1,6 @@
 package sm.dsw.ms.ubigeo.model;
 
 import jakarta.persistence.*;
-import java.util.List;
 
 @Entity
 @Table(name = "Ubigeo")

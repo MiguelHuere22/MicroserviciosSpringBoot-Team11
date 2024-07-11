@@ -11,5 +11,5 @@ public interface PeopleService {
     People updatePersona(Long id, People personaDetails);
     void deletePersona(Long id);
     List<People> findByIdUbigeo(Long idUbigeo);
-    UbigeoWithPeopleResponse getUbigeoWithPersonas(Long idUbigeo); // Este método debe estar declarado aquí
+    UbigeoWithPeopleResponse getUbigeoWithPersonas(Long idUbigeo);
 }
